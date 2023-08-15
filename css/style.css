@@ -17,16 +17,16 @@ a{
     text-decoration: none;
 }
 .container{
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto; 
 }
 /* ====================== header start here ================== */
 
 header{
-    background-color: #282828;
     padding: 15px 0;
     border-bottom: 2px solid #FFB800;
     position: relative;
+    background-color: #444;
 }
 .header_wrapper{
     display: flex;
@@ -458,8 +458,6 @@ nav{
 /* ====================== copywrite part start here ================== */
 #copywrite{
     background-color: #282828;
-    margin: 0 auto;
-    align-items: center;
     padding: 42px 0;
     border-top: 2px solid red;
 }

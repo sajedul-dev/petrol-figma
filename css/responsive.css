@@ -1,0 +1,596 @@
+/* =================== Extra small device ================== */
+
+@media(max-width:575.98px){
+
+/* ===================== header part operation start ==================== */
+
+    .header_wrapper {
+        flex-direction: column;
+    }
+    .social_icon {
+        flex-direction: row;
+        column-gap: 25px;
+        padding-top: 35px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header_actions {
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+    }
+    .header_actions::after {
+        display: none;
+    }
+    /* ====================== navbar operation start ===================== */
+    .nav_wrapper {
+        flex-direction: column;
+    }
+    .menu ul {
+        flex-direction: column;
+        row-gap: 15px;
+        text-align: center;
+    }
+    .menu {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    /* =================== banner part operation start ================== */
+
+    .banner_content h1 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 35px;
+        padding: 0 15px;
+    }
+    .banner_content{
+        text-align: center;
+    }
+    .common_btn {
+        font-size: 14px;
+        padding: 14px 25px;
+        margin-top: 20px;
+    }
+    /* =================== wellcome part operation start ================= */
+    .wellcome_wrapper {
+        flex-direction: column;
+    }
+    .title h1 {
+        font-size: 20px;
+        line-height: 34px;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .wellcome_details p {
+        font-size: 16px;
+        color: #000;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .wellcome_details {
+        padding: 25px 10px;
+    }
+    /* ================ slider part operation start ================ */
+    .slider_wrapper {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .slide_img {
+        width: 100%;
+        height: auto;
+    }
+    .service_blank {
+        padding: 25px 10px;
+        text-align: center;
+    }
+    .service_main {
+        width: 100%;
+    }
+
+    /* ================== about part operation start ============= */
+    #about{
+        padding: 50px 0;
+    }
+    .about_wrapper {
+        flex-direction: column;
+    }
+    .about_content {
+        width: 100%;
+        height: 200px;
+    }
+    .about_img {
+        width: 100%;
+    }
+    .about_content a {
+        text-align: center;
+    }
+    .about_img .common_btn {
+        left: 93px;
+    }
+    /* ==================== logo part operation start =================== */
+    #logo{
+        padding: 50px 0;
+    }
+    .logo_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* ====================== blog part operation start ==================== */
+    #blog{
+        padding: 50px 0;
+    }
+    .blog_wrapper {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .blog_main {
+        width: 100%;
+    }
+    /* ====================== contact part operation start ===================== */
+    .contact_wrapper {
+        flex-direction: column;
+    }
+    .contact_text h3 {
+        padding: 16px 0;
+        font-size: 24px;
+    }
+    .button {
+        margin: 0 auto;
+        padding: 25px 0;
+    }
+    .contact_text {
+        align-items: center;
+        justify-content: center;
+    }
+    .button a {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    /* ====================== footer part operation start ===================== */
+    #footer{
+        padding: 50px 0;
+    }
+    .footer_wrapper {
+        flex-direction: column;
+    }
+    .footer_text {
+        padding: 25px 0;
+        text-align: center;
+    }
+    .footer_main_2 {
+        text-align: center;
+        padding: 25px 0;
+    }
+    .footer_icon {
+        column-gap: 15px;
+        padding: 25px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_main_3 h3 {
+        padding: 25px 0;
+    }
+    .footer_main_1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_main_3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* ================== copywrite part operation start =================== */
+    #copywrite {
+        padding: 16px 0;
+    }
+    #copywrite h3 {
+        font-size: 10px;
+    }
+
+}
+
+/* ======================= Small device ============== */
+
+@media(min-width:576px) and (max-width:767.98px){
+
+        /* ===================== header part operation start ==================== */
+            .header_wrapper {
+                flex-direction: column;
+            }
+            .social_icon {
+                flex-direction: row;
+                column-gap: 25px;
+                padding-top: 35px;
+                align-items: center;
+                justify-content: center;
+            }
+            .header_actions {
+                flex-direction: column;
+                row-gap: 15px;
+                align-items: center;
+            }
+            .header_actions::after {
+                display: none;
+            }
+            /* ====================== navbar operation start ===================== */
+            .nav_wrapper {
+                flex-direction: column;
+            }
+            .menu ul {
+                flex-direction: column;
+                row-gap: 15px;
+                text-align: center;
+            }
+            .menu {
+                flex-direction: column;
+                row-gap: 10px;
+            }
+            /* =================== banner part operation start ================== */
+        
+            .banner_content h1 {
+                width: 100%;
+                font-size: 24px;
+                line-height: 35px;
+                padding: 0 15px;
+            }
+            .banner_content{
+                text-align: center;
+                position: relative;
+            }
+            .common_btn {
+                font-size: 14px;
+                padding: 14px 25px;
+                margin-top: 20px;
+            }
+            /* =================== wellcome part operation start ================= */
+            .wellcome_wrapper {
+                flex-direction: column;
+            }
+            .title h1 {
+                font-size: 20px;
+                line-height: 34px;
+                padding: 0 15px;
+                text-align: center;
+            }
+            .wellcome_details p {
+                font-size: 16px;
+                color: #000;
+                text-align: center;
+                padding: 0 15px;
+            }
+            .wellcome_details {
+                padding: 25px 10px;
+            }
+            /* ================ slider part operation start ================ */
+            .slider_wrapper {
+                flex-direction: column;
+                row-gap: 15px;
+            }
+            .slide_img {
+                width: 100%;
+                height: auto;
+            }
+            .service_blank {
+                padding: 25px 10px;
+                text-align: center;
+            }
+            .service_main {
+                width: 100%;
+            }
+            /* ================== about part operation start ============= */
+            #about{
+                padding: 50px 0;
+            }
+            .about_wrapper {
+                flex-direction: column;
+            }
+            .about_content {
+                width: 100%;
+                height: 200px;
+            }
+            .about_img {
+                width: 100%;
+            }
+            .about_content a {
+                text-align: center;
+            }
+            .about_img .common_btn {
+                left: 280px;
+            }
+            /* ==================== logo part operation start =================== */
+            #logo{
+                padding: 50px 0;
+            }
+            .logo_wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+            /* ====================== blog part operation start ==================== */
+            #blog{
+                padding: 50px 0;
+            }
+            .blog_wrapper {
+                flex-direction: column;
+                row-gap: 15px;
+            }
+            .blog_main {
+                width: 100%;
+            }
+            /* ====================== contact part operation start ===================== */
+            .contact_wrapper {
+                flex-direction: column;
+            }
+            .contact_text h3 {
+                padding: 16px 0;
+                font-size: 24px;
+            }
+            .button {
+                margin: 0 auto;
+                padding: 25px 0;
+            }
+            .button a {
+                padding: 10px 20px;
+                font-size: 13px;
+            }
+            .contact_text {
+                align-items: center;
+                justify-content: center;
+            }
+            /* ====================== footer part operation start ===================== */
+            #footer{
+                padding: 50px 0;
+            }
+            .footer_wrapper {
+                flex-direction: column;
+            }
+            .footer_text {
+                padding: 25px 0;
+                text-align: center;
+            }
+            .footer_main_2 {
+                text-align: center;
+                padding: 25px 0;
+            }
+            .footer_icon {
+                column-gap: 15px;
+                padding: 25px 0;
+                align-items: center;
+                justify-content: center;
+            }
+            .footer_main_3 h3 {
+                padding: 25px 0;
+            }
+            .footer_main_1{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer_main_3 {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer_icon {
+                column-gap: 80px;
+            }
+            /* ================== copywrite part operation start =================== */
+            #copywrite {
+                padding: 16px 0;
+            }
+            #copywrite h3 {
+                font-size: 20px;
+                color: #fff;
+            }
+        
+        
+}
+/*=================== Medium device =================== */
+
+@media(min-width:768px) and (max-width:991.98px){
+
+        /* ===================== header part operation start ==================== */
+            .header_wrapper {
+                flex-direction: column;
+            }
+            .social_icon {
+                flex-direction: row;
+                column-gap: 25px;
+                padding-top: 35px;
+                align-items: center;
+                justify-content: center;
+            }
+            .header_actions {
+                flex-direction: column;
+                row-gap: 15px;
+                align-items: center;
+            }
+            .header_actions::after {
+                display: none;
+            }
+            /* ====================== navbar operation start ===================== */
+            .nav_wrapper {
+                flex-direction: column;
+            }
+            .menu ul {
+                flex-direction: column;
+                row-gap: 15px;
+                text-align: center;
+            }
+            .menu {
+                flex-direction: column;
+                row-gap: 10px;
+            }
+            /* =================== banner part operation start ================== */
+        
+            .banner_content h1 {
+                width: 100%;
+                font-size: 24px;
+                line-height: 35px;
+                padding: 0 15px;
+            }
+            .banner_content{
+                text-align: center;
+                position: relative;
+            }
+            .common_btn {
+                font-size: 14px;
+                padding: 14px 25px;
+                margin-top: 20px;
+            }
+            /* =================== wellcome part operation start ================= */
+            .wellcome_wrapper {
+                flex-direction: column;
+            }
+            .title h1 {
+                font-size: 20px;
+                line-height: 34px;
+                padding: 0 15px;
+                text-align: center;
+            }
+            .wellcome_details p {
+                font-size: 16px;
+                color: #000;
+                text-align: center;
+                padding: 0 15px;
+            }
+            .wellcome_details {
+                padding: 25px 10px;
+            }
+            /* ================ slider part operation start ================ */
+            .slider_wrapper {
+                flex-direction: column;
+                row-gap: 15px;
+            }
+            .slide_img {
+                width: 100%;
+                height: auto;
+            }
+            .service_blank {
+                padding: 25px 10px;
+                text-align: center;
+            }
+            .service_main {
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+            }
+            /* ================== about part operation start ============= */
+            #about{
+                padding: 50px 0;
+            }
+            .about_wrapper {
+                flex-direction: column;
+            }
+            .about_content {
+                width: 100%;
+                height: 200px;
+            }
+            .about_img {
+                width: 100%;
+            }
+            .about_content a {
+                text-align: center;
+            }
+            .about_img .common_btn {
+                left: 415px;
+            }
+            /* ==================== logo part operation start =================== */
+            #logo{
+                padding: 50px 0;
+            }
+            .logo_wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+            /* ====================== blog part operation start ==================== */
+            #blog{
+                padding: 50px 0;
+            }
+            .blog_wrapper {
+                flex-direction: column;
+                row-gap: 15px;
+            }
+            .blog_main {
+                width: 100%;
+            }
+            /* ====================== contact part operation start ===================== */
+            #contact {
+                padding: 35px 0;
+            }
+            .contact_wrapper {
+                flex-direction: column;
+            }
+            .contact_text h3 {
+                padding: 16px 0;
+                font-size: 24px;
+            }
+            .button {
+                margin: 0 auto;
+                padding: 25px 0;
+            }
+            .button a {
+                padding: 10px 20px;
+                font-size: 13px;
+            }
+            .contact_text {
+                align-items: center;
+                justify-content: center;
+            }
+            /* ====================== footer part operation start ===================== */
+            #footer{
+                padding: 50px 0;
+            }
+            .footer_wrapper {
+                flex-direction: column;
+            }
+            .footer_text {
+                padding: 25px 0;
+                text-align: center;
+            }
+            .footer_main_2 {
+                text-align: center;
+                padding: 25px 0;
+            }
+            .footer_icon {
+                column-gap: 15px;
+                padding: 25px 0;
+                align-items: center;
+                justify-content: center;
+            }
+            .footer_main_3 h3 {
+                padding: 25px 0;
+            }
+            .footer_main_1{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer_main_3 {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer_icon {
+                column-gap: 100px;
+            }
+            /* ================== copywrite part operation start =================== */
+            #copywrite {
+                padding: 16px 0;
+                background-color: #fff;
+            }
+            #copywrite h3 {
+                font-size: 24px;
+                color: red;
+            }
+        
+
+}
+
+
